@@ -82,7 +82,7 @@ class App {
     //*/
 
     // SpotLight 광원
-    //*
+    /*
     const light = new THREE.SpotLight(0xffffff, 10);
     light.position.set(0, 2.5, 0);
     light.target.position.set(0, 0, 0);
@@ -115,7 +115,7 @@ class App {
     //*/
 
     // HDR Image를 이용한 광원
-    /*
+    //*
     new RGBELoader()
       .load("./hayloft_2k.hdr", (texture) => {
         texture.mapping = THREE.EquirectangularReflectionMapping;
